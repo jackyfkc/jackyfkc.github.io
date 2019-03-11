@@ -1,33 +1,37 @@
-Distributed System
----
+分布式系统
+-----
 
 <div class="alert alert-info">
 <p>
 A distributed system is one in which the failure of a computer you didn't even know existed can render your own computer unusable.
 </p>
 <hr/>
-<p>如果一个系统中有一台你从没见过的机器出了问题, 却能连累你的机器也无法使用, 那么它就是一个分布式系统 ------ 莱斯利.兰伯特, 1987
+<p>在一个系统中有一台你从未见过的机器出了问题, 却能致使你的机器也无法使用, 那么它就是一个分布式系统 ------ 莱斯利.兰伯特, 1987
 </p>
 
 </div>
 
 - - -
 
-Why we want to using a distributed system?
+为什么我们需要分布式系统？
 
-* tolerate node failure
+* tolerate node failure 容忍节点故障
 
-* scalability (processing more requests than a single machine)
+* scalability (processing more requests than a single machine) 扩展性
 
-* latency (placing replicas geographically closer to users)
+* latency (placing replicas geographically closer to users) 延迟
 
 - - -
 
-The Trouble With Distributed System
+分布式系统的麻烦
 
-* Unreliable Networks
+* Unreliable Networks 不可靠的网络
 
-* Unreliable Clocks
+    网络可能会丢包，乱序，超时
+
+* Unreliable Clocks 不可靠的时钟
+
+    不同机器的时钟不一致，另外时钟会出现偏移
 
 - - -
 
@@ -41,7 +45,7 @@ Models describe the key properties of a distributed system in a precise manner.
 
 - - -
 
-Theorem (maybe?)
+Theorem 定理 (maybe?)
 
 * [FLP](flp.md)
 
@@ -53,6 +57,21 @@ Theorem (maybe?)
     Available or Consistent when Partitioned
 
 - - -
+
+分布式系统一个首要问题是进程间通信
+
+* RPC (Thrift, GRpc, Rest/Http, Dubbo...)
+
+* MQ (AMQP based, RabbitMQ; log based, Kafka)
+
+- - -
+
+其次，进程间需要同步：互斥（分布式锁）和分布式事务（原子提交）
+
+* Distributed Lock
+
+* [Distributed Transaction](transaction.md)
+
 
 **共识算法 Consensus Algorithm**
 
@@ -67,26 +86,18 @@ Getting a group of nodes to agree on a given value is described as the `consensu
 
 * [Zookeeper](zookeeper/intro.md)
 
+* Etcd
 
 - - -
 
-**Synchronization**
-
-* Distributed Lock
-
-* [Distributed Transaction](transaction.md)
-
-- - -
-
-Divide and conquer
+分而治之
 
 * Replication 副本
 
 * Partitioning 分区
 
 
-
-## Further Readings
+## 进一步阅读
 
 Online Blog & Articles
 
