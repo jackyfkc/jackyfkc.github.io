@@ -1,0 +1,172 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    font-family: "Lucida Sans Unicode", "source-sans-pro", sans-serif;
+    font-size: 13px;
+}
+
+pre {
+    border: none;
+    padding: inherit;
+    background-color: #ffffff;
+}
+
+
+/* Overwrite the default style style */
+
+header {
+    width: auto;
+    border: none;
+
+    padding: 10px 12px 12px 18px;
+    background-color: #394a58;
+    margin: 20px 15px 0 10px;
+}
+
+h2.header {
+    color: #fff;
+}
+
+header li {
+    margin-left: 60px;
+}
+
+ul {
+    margin: 0;
+}
+
+section {
+    padding: 21px 23px 20px 21px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+code, pre {
+    font-size: 12px;
+}
+
+code.highlighter-rouge {
+    color: rgb(27, 105, 183);
+}
+
+/* END */
+
+
+#footer {
+    font-size: 0.7em;
+}
+
+.alert {
+    padding: .75rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+}
+
+.alert p {
+    margin-bottom: .5rem;
+}
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-left: 3px solid #b8daff;
+}
+
+.alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #FFF8DC;
+    border-left: 3px solid #ffeeba;
+}
+
+.alert-warn {
+    color: #856404;
+    background-color: #FFF8DC;
+    border-left: 3px solid #ffeeba;
+}
+
+.group {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+}
+
+.group-item {
+    display: flex;
+    padding: 3px;
+    flex-grow: 1;
+}
+
+.group-item a {
+    display: block;
+    width: 100%;
+    padding: 1.5em 0.5em;
+    color: #0c5460;
+    background: #e2e3e5;
+}
+
+.group-item a.active {
+    background: #bee5eb;
+}
+
+img + em {
+ display: block;
+  text-align: center;
+}
+
+/* copy from bootstrap */
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-default {
+    background-color: #e2e3e5;
+}
+
+.badge-info {
+    background-color: #bee5eb;
+}
+
+.badge-warn, .badge-warning {
+    background-color: #f0ad4e;
+}
+
+.badge-danger {
+    background-color: #d9534f;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+
+.badge-primary {
+    background-color: #0275d8;
+}

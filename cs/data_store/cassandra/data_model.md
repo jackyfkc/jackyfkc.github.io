@@ -1,0 +1,9 @@
+Data Model
+---
+
+...
+
+
+
+No joins
+
