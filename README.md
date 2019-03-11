@@ -80,4 +80,4 @@
 
 - - -
 
-* [论文集](https://github.com/jackyfkc/jackyfkc.github.io/tree/master/material)
+* [论文集](https://github.com/jackyfkc/cs_repository/tree/master/papers)
