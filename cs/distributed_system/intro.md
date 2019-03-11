@@ -60,9 +60,9 @@ Theorem 定理 (maybe?)
 
 分布式系统一个首要问题是进程间通信
 
-* RPC (Thrift, GRpc, Rest/Http, Dubbo...)
+* RPC (Thrift, grpc, Rest/Http, Dubbo...)
 
-* MQ (AMQP based, RabbitMQ; log based, Kafka)
+* MQ (AMQP based: RabbitMQ; log based: Kafka)
 
 - - -
 
@@ -72,6 +72,8 @@ Theorem 定理 (maybe?)
 
 * [Distributed Transaction](transaction.md)
 
+
+- - -
 
 **共识算法 Consensus Algorithm**
 
