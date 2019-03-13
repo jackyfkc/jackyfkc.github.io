@@ -1,5 +1,5 @@
 Design Patterns
----
+-----
 
 * [Retry Pattern](retry.md)
 

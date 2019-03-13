@@ -24,4 +24,6 @@ Further Reading
 
 * [Hystrix](https://github.com/Netflix/Hystrix/wiki/How-it-Works#circuit-breaker)
 
+    Hystrix is no longer maintained, use Resilience4J intead
+
 * [Circuit Breaker Pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker)

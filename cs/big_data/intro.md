@@ -8,6 +8,8 @@ for Me as a Scientist?*
 
 ### Batch Processing (offline systems)
 
+* [HDFS](hdfs/intro.md)
+
 * [MapReduce](mapreduce/intro.md)
 
 

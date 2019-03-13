@@ -24,7 +24,7 @@ The term "microservice" was discussed at a workshop of software architects near 
 
 * [Design Patterns](patterns/intro.md)
 
-* [Critical Components](components.md)
+* [Tracing 链路跟踪](tracing.md)
 
 
 ## References
