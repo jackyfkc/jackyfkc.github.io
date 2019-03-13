@@ -5,11 +5,13 @@
 ### ZipKin
 
 ![](../images/zipkin.png)
+*来源: https://zipkin.io/pages/architecture.html*
+
 
 ### Jaeger
 
 ![](../images/jaeger.png)
-
+*来源:https://www.jaegertracing.io/docs/1.10/architecture/*
 
 
 ## References
