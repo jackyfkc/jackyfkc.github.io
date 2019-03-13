@@ -5,6 +5,11 @@ Big Data
 *A view of Microsoft Data Center, 来源: Armando Fox, Cloud Computing What’s in It
 for Me as a Scientist?*
 
+- - -
+
+![](images/data_infrastructure.jpg)
+*来源: Open Source Data Infrastructure*
+
 
 ### Batch Processing (offline systems)
 
