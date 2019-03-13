@@ -28,7 +28,7 @@ A powerful programming language is more than just a means for instructing a comp
     
     在低/高级系统程序设计、嵌入式系统、数值／科学计算等领域，C++ 有着很好的优势
 
-* [Python](Python/intro.md)
+* [Python](python/intro.md)
    
    一门“接近需要解决问题”的语言，可以直接而简洁的描述好要解决的问题
    
