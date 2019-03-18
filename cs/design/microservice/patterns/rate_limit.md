@@ -5,6 +5,12 @@ Rate Limit 流控/限速
 
 ![](../../images/rate_limit_queue.jpg)
 
-* Token Bucket
+* Token Bucket 令牌桶
 
-* Leaky Bucket
+* Leaky Bucket 漏桶
+
+
+### Adaptive Rate Limit 自适应限速
+
+...
+
