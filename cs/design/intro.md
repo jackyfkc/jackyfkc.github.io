@@ -86,6 +86,25 @@ Online Blogs & Articles
 
 * [Martin Fowler](https://martinfowler.com)
 
+- - -
+
+分布式系统
+
 * [The System Design Primer - On Github](https://github.com/donnemartin/system-design-primer/blob/master/README.md)
 
     系统设计入门指南
+
+* Jeff Dean: Designs, Lessons and Advice from Building Large
+  Distributed Systems
+
+Know Your Basic Building Blocks
+
+    Core language libraries, basic data structures,
+
+    protocol buffers, GFS, BigTable,
+
+    indexing systems, MySQL, MapReduce, …
+
+Not just their interfaces, but understand their implementations (at least at a high level)
+
+> If you don’t know what’s going on, you can’t do decent back-of-the-envelope calculations!

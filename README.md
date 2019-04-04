@@ -1,4 +1,4 @@
-<div class="alert alert-warn">
+<div class="alert alert-info">
     <p>学会用机器和算法解决问题</p>
     <p align="right">——献给亲爱的小碧, 土豆哥, 小月月</p>
 </div>
